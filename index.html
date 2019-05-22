@@ -4,28 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cereal Trivia!</title>
+    <title>Space Trivia!</title>
 
     <link rel="stylesheet" type="style/css" href="assets/css/style.css">
 </head>
 <body>
     
-    <div id="game
-    start-container">
+    <div id="start-container">
         <h1>S P A C E Trivia</h1>
-        <button id="start-button">Blast Off</button>
+        <button id="start-button">Blast Off!</button>
     </div>
 
-    <div id="triviaquestions-container">
+    <div id="questions-container">
         <h1>S P A C E Trivia</h1>
-        <h2 id="timer">Remaining Time:</h2>
+        <h2 id="timer">Remaining Time: <span id="time-number">60 seconds</span></h2>
 
         <p>1. The sun is about ____ times the size of the moon.</p>
         <!--Answer is 800-->
         <input type="radio" name="q1" value="1000">1000
         <input type="radio" name="q1" value="400">400
         <input type="radio" name="q1" value="250">250
-        <input type="radio" name="q1" value="80">80
+        <input type="radio" name="q1" value="80">800
+
+        <br>
+        <br>
 
         <p>2. What planets rain diamonds?</p>
         <!--Answer is Saturn and Jupiter-->
@@ -34,62 +36,109 @@
         <input type="radio" name="q2" value="Uranus and Mercury">Uranus and Mercury
         <input type="radio" name="q2" value="Jupiter and Uranus">JUpiter and Uranus
 
+        <br>
+        <br>
+
         <p>3. What's the largest planet in the solar system?></p>
         <!--Answer is Jupiter-->
         <input type="radio" name="q3" value="Saturn">Saturn
         <input type="radio" name="q3" value="Earth">Earth
-        <input type="radio" name="q3" value="Neptune">1Neptune
+        <input type="radio" name="q3" value="Neptune">Neptune
         <input type="radio" name="q3" value="Jupiter">Jupiter
 
-        <p>3. What does "astronaut" mean in Greek? </p>
+        <br>
+        <br>
+
+        <p>4. What does "astronaut" mean in Greek? </p>
         <!-- Star Sailor-->
         <input type="radio" name="q4" value="Space Voyager">Space Voyager
         <input type="radio" name="q4" value="Cosmo Traveler">Cosmo Traveler
         <input type="radio" name="q4" value="Star Sailor">Star Sailor
         <input type="radio" name="q4" value="Celestial Discoverer">Celestial Discoverer
 
-        <p>3.The sun takes up about what percentage of the solar system's mass? </p>
-        <!--98-->
+        <br>
+        <br>
+
+        <p>5.The sun takes up about what percentage of the solar system's mass? </p>
+        <!--99-->
         <input type="radio" name="q5" value="80%">80%
         <input type="radio" name="q5" value="55%">55%
         <input type="radio" name="q5" value="99%">99%
         <input type="radio" name="q5" value="67%">67%
 
-        <p>3. </p>
+        <br>
+        <br>
+
+        <p>6. </p>
         <input type="radio" name="q6" value="1000">1000
         <input type="radio" name="q6" value="1000">1000
         <input type="radio" name="q6" value="1000">1000
         <input type="radio" name="q6" value="1000">1000
 
-        <p>3. </p>
+        <br>
+        <br>
+
+        <p>7. </p>
         <input type="radio" name="q7" value="1000">1000
         <input type="radio" name="q7" value="1000">1000
         <input type="radio" name="q7" value="1000">1000
         <input type="radio" name="q7" value="1000">1000
 
-        <p>3. </p>
+        <br>
+        <br>
+
+        <p>8. </p>
         <input type="radio" name="q8" value="1000">1000
         <input type="radio" name="q8" value="1000">1000
         <input type="radio" name="q8" value="1000">1000
         <input type="radio" name="q8" value="1000">1000
 
-        <p>3. </p>
+        <br>
+        <br>
+
+        <p>9. </p>
         <input type="radio" name="q9" value="1000">1000
         <input type="radio" name="q9" value="1000">1000
         <input type="radio" name="q9" value="1000">1000
         <input type="radio" name="q9" value="1000">1000
 
-        <p>3. </p>
+        <br>
+        <br>
+
+        <p>10. </p>
         <input type="radio" name="q10" value="1000">1000
         <input type="radio" name="q10" value="1000">1000
         <input type="radio" name="q10" value="1000">1000
         <input type="radio" name="q10" value="1000">1000
-        </div>
+        
+        <br>
+        <br>
+
+        <button id="end-button">MISSION COMPLETE!</button>
+
+    </div>
+
+
+
+    <div id="end-container">
+        <h1>S P A C E Trivia!</h1>
 
         <br>
 
-        <button id="end-button">Mission Complete!</button>
+        <h1>MISSION COMPLETE!</h1>
+
+        <br>
+
+        <h2>Correct Answers: <span id="correct"></span></h2>
+        <h2>Incorrect Answers: <span id="incorrect"></span></h2>
+        <h2>Unanswered: <span id="unanswered"></span></h2>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/app.js"></script>
 </body>
 </html>
