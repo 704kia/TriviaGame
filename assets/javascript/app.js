@@ -42,11 +42,6 @@ $(document).ready(function(){
     var q3 = $("input[name='q3']:checked").val()
     var q4 = $("input[name='q4']:checked").val()
     var q5 = $("input[name='q5']:checked").val()
-    var q6 = $("input[name='q6']:checked").val()
-    var q7 = $("input[name='q7']:checked").val()
-    var q8 = $("input[name='q8']:checked").val()
-    var q9 = $("input[name='q9']:checked").val()
-    var q10 = $("input[name='q10']:checked").val()
 
     //answer check
 
